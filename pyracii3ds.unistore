@@ -1,48 +1,51 @@
 {
-    "storeContent": [
-        {
-            "info": {
-                "title": "pyracii3DS",
-                "author": "ephilitq, nekode",
-                "description": "frii gaem",
-                "category": ["placeholder"],
-                "console": ["3DS"],
-                "icon_index": 0,
-                "sheet_index": 0,
-                "last_updated": "5/5/21",
-                "license": "gpl-3.0",
-                "version": "v2.5.1"
+   "storeContent":[
+      {
+         "info":{
+            "title":"pyracii3DS",
+            "author":"ephilitq, nekode",
+            "description":"frii gaem",
+            "category":[
+               "placeholder"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "icon_index":0,
+            "sheet_index":0,
+            "last_updated":"5/5/21",
+            "license":"gpl-3.0",
+            "version":"v2.5.1"
+         },
+         "Download VVVVVV (USA) Rev 1) (eShop).cia (1 MiB)":[
+            {
+               "file":"https://drive.google.com/file/d/1rMFQ_urofHNvU_03VjcFh0oDHLwQvQJ9/view?usp=sharing",
+               "message":"Downloading your game...",
+               "output":"sdmc:/VVVVVV (USA) (Rev 1) (eShop).cia",
+               "type":"downloadFile"
             },
-            
-            "Download VVVVVV (USA) Rev 1) (eShop).cia (1 MiB)": [
-                {
-                    "file": "https://drive.google.com/file/d/1rMFQ_urofHNvU_03VjcFh0oDHLwQvQJ9/view?usp=sharing",
-                    "message": "Downloading your game...",
-                    "output": "sdmc:/VVVVVV (USA) (Rev 1) (eShop).cia",
-                    "type": "downloadFile"
-                },
-                {
-                    "file": "/VVVVVV (USA) (Rev 1) (eShop).cia",
-                    "message": "Installing your game...",
-                    "type": "installCia"
-                },
-                {
-                    "file": "sdmc:/VVVVVV (USA) (Rev 1) (eShop).cia",
-                    "message": "Deleting installed cia.",
-                    "type": "deleteFile"
-                }
-           
-    "storeInfo": {
-        "title": "pyracii3DS",
-        "author": "ephilitq, nekode",
-        "description": "placeholder",
-        "url": "https://github.com/PhatNeko/pyracii3ds-poc",
-        "file": "pyracii3ds.unistore",
-        "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
-        "sheet": "universal-db.t3x",
-        "bg_index": 1,
-        "bg_sheet": 0,
-        "revision": 91,
-        "version": 3
+            {
+               "file":"/VVVVVV (USA) (Rev 1) (eShop).cia",
+               "message":"Installing your game...",
+               "type":"installCia"
+            },
+            {
+               "file":"sdmc:/VVVVVV (USA) (Rev 1) (eShop).cia",
+               "message":"Deleting installed cia.",
+               "type":"deleteFile"
+            }"storeInfo":{
+               "title":"pyracii3DS",
+               "author":"ephilitq, nekode",
+               "description":"placeholder",
+               "url":"https://github.com/PhatNeko/pyracii3ds-poc",
+               "file":"pyracii3ds.unistore",
+               "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
+               "sheet":"universal-db.t3x",
+               "bg_index":1,
+               "bg_sheet":0,
+               "revision":91,
+               "version":3
+            }
+         }
     }
 }
